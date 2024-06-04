@@ -10,10 +10,10 @@ import psycopg2
 Connect to the database using the connection string
 '''
 def openConnection():
-    # connection parameters - ENTER YOUR LOGIN AND PASSWORD HERE
-    userid = "y24s1c9120_yzha4025"
-    passwd = "vCjNykg4"
-    myHost = "awsprddbs4836.shared.sydney.edu.au"
+    # connection parameters - ENTER YOUR LOGIN AND PASSWORD HERE USING YOUR SERVER CREATED IN PGADMIN
+    userid = ""
+    passwd = ""
+    myHost = ""
 
     # Create a connection to the database
     conn = None
