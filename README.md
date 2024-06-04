@@ -20,5 +20,6 @@ The project implements a system  designed to enhance the operational efficiency 
 <b> 5. Updating Existing Menu Items </b><br />
 -  Objective: Allow staff to update details of existing menu items in the database.<br />
 -  Implementation: Implement the updateMenuItem function to modify existing menu items in the database. <br />
-<br />
+
+## Tools
 
