@@ -22,4 +22,6 @@ The project implements a system  designed to enhance the operational efficiency 
 -  Implementation: Implement the updateMenuItem function to modify existing menu items in the database. <br />
 
 ## Tools
+<h3>Python</h3>
+<h3>Postgresql for database management</h3>
 
