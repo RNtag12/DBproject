@@ -1,5 +1,5 @@
 # DBproject
-DBMS with python and postgresql
+DBMS with python and postgresql. security features are implemented such as sanitizing user imput and using stored procedures to help mitigate SQL injection attacks.
 <h2> Project Description</h2>
 The project implements a system  designed to enhance the operational efficiency of a restaurant by implementing a robust and user-friendly platform for staff management and menu handling. This project involves developing key functionalities such as staff login, menu item management, and search capabilities using Python, Flask, and PostgreSQL. The goal is to create a seamless interface that allows staff members to perform essential tasks efficiently.
 <br />
