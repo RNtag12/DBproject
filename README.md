@@ -40,6 +40,9 @@ The project implements a system  designed to enhance the operational efficiency 
 ## Project execution steps
 - download the files
 - download python using the commands outlined in python requirements file
-- download pgadmin to 
+- download & install  pgadmin and execute the sql file
+- go to the folder where the python files are and start a CLI there
+- execute main.py
+
 
 
