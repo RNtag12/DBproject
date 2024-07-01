@@ -35,14 +35,14 @@ The project implements a system  designed to enhance the operational efficiency 
 ## Tools
 
 - Python
-- Postgresql for database management
+- PgAdmin (Postgresql) for database management
 
 ## Project execution steps
-- download the files
+- download all the python and sql files
 - download python using the commands outlined in python requirements file
 - download & install  pgadmin and execute the sql file
-- go to the folder where the python files are and start a CLI there
-- execute main.py
+- start a CLI in the directory where you downloaded the python files
+- execute main.py using python main.py command
 
 
 
