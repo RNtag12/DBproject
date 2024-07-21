@@ -9,33 +9,42 @@ The project implements a system  designed to enhance the operational efficiency 
 
 <b> 1. Login Functionality</b>
 
--  Objective: Enable staff members to securely log in using their username and password.<br />
--  Implementation: Develop a function checkStaffLogin that validates user credentials against the database. 
+-  Objective: checkStaffLogin() enables staff members to securely log in using their username and password.<br />
+-  Implementation:  validates user credentials against the database. 
 
 <b> 2. Viewing Menu Items </b><br />
 
--  Objective: Allow staff to view a list of menu items with options to order and filter them.<br />
--  Implementation: Create the findMenuItemsByStaff function to retrieve and display menu items from the database.
+-  Objective: findMenuItemsByStaff() Allows staff to view a list of menu items with options to order and filter them.<br />
+-  Implementation: retrieve and display menu items from the database.
   
 <b> 3. Search Functionality </b><br />
 
--  Objective: Enable users to search for menu items based on specific criteria.<br />
--  Implementation: Implement the findMenuItemsByCriteria function to query the database for menu items matching the search criteria.
+-  Objective: findMenuItemsByCriteria() Enables users to search for menu items based on specific criteria.<br />
+-  Implementation: query the database for menu items matching the search criteria.
   
 <b> 4. Adding New Menu Items </b><br />
 
--  Objective: Provide functionality for staff to add new menu items to the database.<br />
--  Implementation: Develop the addMenuItem function to insert new menu items into the database.
+-  Objective: addMenuItem() Provides functionality for staff to add new menu items to the database.<br />
+-  Implementation: insert new menu items into the database.
    
 <b> 5. Updating Existing Menu Items </b><br />
 
--  Objective: Allow staff to update details of existing menu items in the database.<br />
--  Implementation: Implement the updateMenuItem function to modify existing menu items in the database. <br />
+-  Objective: updateMenuItem() Allows staff to update details of existing menu items in the database.<br />
+-  Implementation: modify existing menu items in the database. <br />
 
 ## Tools
 
-- Python
+- Python IDE
 - PgAdmin (Postgresql) for database management
+  
+## Database project interaction
+The code employs a variety of Python modules to provide a basic browser-based GUI for the DBsystem. The major components are the Flask framework for the user interface and the psycopg2 module for PostgreSQL database access.  You'll need to install the Psycopg2 and Flask modules. the project comprises two main files:
+
+- <b> DBSchema.sql</b>: a file that includes SQL statements need to be run to construct and initialize the system database before running the application.
+- <b> DBProject file</b>: a file that contains the Python project for the DB system.
+  
+The main program begins in the main.py file. You must provide the right username/password information in the data layer databaseconnection.py.
+The presentation layer uses a basic HTML interface accessible through a web browser. The matching page templates are found in the templates/ subfolder, and their CSS style file. The routes.py file handles the transition between the various GUI pages as well as the Flask framework's initialisation. You may execute the code by executing "python main.py". This launches a local web server and displays some debug messages in the terminal; the GUI may then be viewed with any web browser on the same machine using the local URL http://127.0.0.1:5000/ (if that doesn't work, try http://0.0.0.0:5000/). Please keep in mind that in order to end the program, you must first stop the local web server that is currently operating in the background.
 
 ## Project execution steps
 - Set up the environment to run python
