@@ -9,7 +9,7 @@ The project implements a system  designed to enhance the operational efficiency 
 
 <b> 1. Login Functionality</b>
 
--  Objective: checkStaffLogin() enables staff members to securely log in using their username and password.<br />
+- Objective: checkStaffLogin() enables staff members to securely log in using their username and password.<br />
 -  Implementation:  validates user credentials against the database. 
 
 <b> 2. Viewing Menu Items </b><br />
